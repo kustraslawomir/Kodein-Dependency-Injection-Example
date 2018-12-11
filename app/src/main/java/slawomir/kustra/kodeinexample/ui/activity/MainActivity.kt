@@ -15,6 +15,9 @@ import java.lang.StringBuilder
 
 class MainActivity : AppCompatActivity(), KodeinAware {
 
+    /*
+     closestKodein automatically gets app kodein scope for example activity/fragment/application scope
+     */
     override val kodein by closestKodein()
 
     private val quotesViewModelFactory: QuotesViewModelFactory by instance()
