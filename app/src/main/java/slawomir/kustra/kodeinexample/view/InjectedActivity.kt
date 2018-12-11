@@ -1,4 +1,4 @@
-package slawomir.kustra.kodeinexample.ui
+package slawomir.kustra.kodeinexample.view
 
 import android.app.Activity
 import androidx.appcompat.app.AppCompatActivity
